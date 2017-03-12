@@ -2,9 +2,13 @@
     "require": {
         "slim/slim": "^3.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "5.*"
+    },
     "autoload": {
         "psr-4": {
-            "PokerEngine\\": "src/"
+            "PokerEngine\\": "src/",
+            "PokerEngineTest\\": "tests/"
         }
     }
 }
